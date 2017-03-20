@@ -15,6 +15,20 @@
 		A51ABE4C1E0423FD0029D06E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51ABE4A1E0423FD0029D06E /* LaunchScreen.storyboard */; };
 		A51ABE571E0423FD0029D06E /* J2048Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ABE561E0423FD0029D06E /* J2048Tests.m */; };
 		A51ABE621E0423FD0029D06E /* J2048UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ABE611E0423FD0029D06E /* J2048UITests.m */; };
+		A51ABE731E04241A0029D06E /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51ABE721E04241A0029D06E /* SpriteKit.framework */; };
+		A51ABE751E0424210029D06E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51ABE741E0424210029D06E /* UIKit.framework */; };
+		A51ABE771E04242B0029D06E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51ABE761E04242B0029D06E /* CoreGraphics.framework */; };
+		A51ABE791E0424320029D06E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51ABE781E0424320029D06E /* Foundation.framework */; };
+		A51ABE831E0426FC0029D06E /* JGlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ABE821E0426FC0029D06E /* JGlobalState.m */; };
+		A51ABE871E0427AB0029D06E /* JGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ABE861E0427AB0029D06E /* JGameManager.m */; };
+		A51ABE8A1E0427EA0029D06E /* JCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ABE891E0427EA0029D06E /* JCell.m */; };
+		A51ABE8D1E0428190029D06E /* JGird.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ABE8C1E0428190029D06E /* JGird.m */; };
+		A51ABE901E0428430029D06E /* JScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ABE8F1E0428430029D06E /* JScene.m */; };
+		A51ABE931E0428690029D06E /* JTile.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ABE921E0428690029D06E /* JTile.m */; };
+		A51ABE971E0428AD0029D06E /* JTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ABE961E0428AD0029D06E /* JTheme.m */; };
+		A51ABE9A1E0428FD0029D06E /* JScroView.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ABE991E0428FD0029D06E /* JScroView.m */; };
+		A51ABE9D1E04292C0029D06E /* JOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ABE9C1E04292C0029D06E /* JOverlay.m */; };
+		A51ABEA01E0429540029D06E /* JGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ABE9F1E0429540029D06E /* JGridView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,32 @@
 		A51ABE5D1E0423FD0029D06E /* J2048UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = J2048UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51ABE611E0423FD0029D06E /* J2048UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = J2048UITests.m; sourceTree = "<group>"; };
 		A51ABE631E0423FD0029D06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51ABE721E04241A0029D06E /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		A51ABE741E0424210029D06E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A51ABE761E04242B0029D06E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A51ABE781E0424320029D06E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A51ABE801E0424E10029D06E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A51ABE811E0426FC0029D06E /* JGlobalState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGlobalState.h; sourceTree = "<group>"; };
+		A51ABE821E0426FC0029D06E /* JGlobalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGlobalState.m; sourceTree = "<group>"; };
+		A51ABE841E04277F0029D06E /* JPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPosition.h; sourceTree = "<group>"; };
+		A51ABE851E0427AB0029D06E /* JGameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGameManager.h; sourceTree = "<group>"; };
+		A51ABE861E0427AB0029D06E /* JGameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGameManager.m; sourceTree = "<group>"; };
+		A51ABE881E0427EA0029D06E /* JCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCell.h; sourceTree = "<group>"; };
+		A51ABE891E0427EA0029D06E /* JCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCell.m; sourceTree = "<group>"; };
+		A51ABE8B1E0428190029D06E /* JGird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGird.h; sourceTree = "<group>"; };
+		A51ABE8C1E0428190029D06E /* JGird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGird.m; sourceTree = "<group>"; };
+		A51ABE8E1E0428430029D06E /* JScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JScene.h; sourceTree = "<group>"; };
+		A51ABE8F1E0428430029D06E /* JScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JScene.m; sourceTree = "<group>"; };
+		A51ABE911E0428690029D06E /* JTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTile.h; sourceTree = "<group>"; };
+		A51ABE921E0428690029D06E /* JTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTile.m; sourceTree = "<group>"; };
+		A51ABE951E0428AD0029D06E /* JTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTheme.h; sourceTree = "<group>"; };
+		A51ABE961E0428AD0029D06E /* JTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTheme.m; sourceTree = "<group>"; };
+		A51ABE981E0428FD0029D06E /* JScroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JScroView.h; sourceTree = "<group>"; };
+		A51ABE991E0428FD0029D06E /* JScroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JScroView.m; sourceTree = "<group>"; };
+		A51ABE9B1E04292C0029D06E /* JOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOverlay.h; sourceTree = "<group>"; };
+		A51ABE9C1E04292C0029D06E /* JOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOverlay.m; sourceTree = "<group>"; };
+		A51ABE9E1E0429540029D06E /* JGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGridView.h; sourceTree = "<group>"; };
+		A51ABE9F1E0429540029D06E /* JGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGridView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51ABE791E0424320029D06E /* Foundation.framework in Frameworks */,
+				A51ABE771E04242B0029D06E /* CoreGraphics.framework in Frameworks */,
+				A51ABE751E0424210029D06E /* UIKit.framework in Frameworks */,
+				A51ABE731E04241A0029D06E /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +129,7 @@
 				A51ABE551E0423FD0029D06E /* J2048Tests */,
 				A51ABE601E0423FD0029D06E /* J2048UITests */,
 				A51ABE3A1E0423FD0029D06E /* Products */,
+				A51ABE6F1E04240B0029D06E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +146,13 @@
 		A51ABE3B1E0423FD0029D06E /* J2048 */ = {
 			isa = PBXGroup;
 			children = (
-				A51ABE3F1E0423FD0029D06E /* AppDelegate.h */,
-				A51ABE401E0423FD0029D06E /* AppDelegate.m */,
-				A51ABE421E0423FD0029D06E /* ViewController.h */,
-				A51ABE431E0423FD0029D06E /* ViewController.m */,
-				A51ABE451E0423FD0029D06E /* Main.storyboard */,
+				A51ABE941E04289D0029D06E /* Theme */,
+				A51ABE7F1E0424690029D06E /* main */,
+				A51ABE7E1E04245F0029D06E /* View */,
+				A51ABE7D1E0424550029D06E /* Controller */,
+				A51ABE7C1E04244C0029D06E /* Sprite Kit */,
+				A51ABE7B1E0424460029D06E /* State */,
+				A51ABE7A1E04243C0029D06E /* Global */,
 				A51ABE481E0423FD0029D06E /* Assets.xcassets */,
 				A51ABE4A1E0423FD0029D06E /* LaunchScreen.storyboard */,
 				A51ABE4D1E0423FD0029D06E /* Info.plist */,
@@ -138,6 +185,93 @@
 				A51ABE631E0423FD0029D06E /* Info.plist */,
 			);
 			path = J2048UITests;
+			sourceTree = "<group>";
+		};
+		A51ABE6F1E04240B0029D06E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A51ABE781E0424320029D06E /* Foundation.framework */,
+				A51ABE761E04242B0029D06E /* CoreGraphics.framework */,
+				A51ABE741E0424210029D06E /* UIKit.framework */,
+				A51ABE721E04241A0029D06E /* SpriteKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A51ABE7A1E04243C0029D06E /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				A51ABE811E0426FC0029D06E /* JGlobalState.h */,
+				A51ABE821E0426FC0029D06E /* JGlobalState.m */,
+				A51ABE841E04277F0029D06E /* JPosition.h */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		A51ABE7B1E0424460029D06E /* State */ = {
+			isa = PBXGroup;
+			children = (
+				A51ABE851E0427AB0029D06E /* JGameManager.h */,
+				A51ABE861E0427AB0029D06E /* JGameManager.m */,
+			);
+			name = State;
+			sourceTree = "<group>";
+		};
+		A51ABE7C1E04244C0029D06E /* Sprite Kit */ = {
+			isa = PBXGroup;
+			children = (
+				A51ABE881E0427EA0029D06E /* JCell.h */,
+				A51ABE891E0427EA0029D06E /* JCell.m */,
+				A51ABE8B1E0428190029D06E /* JGird.h */,
+				A51ABE8C1E0428190029D06E /* JGird.m */,
+				A51ABE8E1E0428430029D06E /* JScene.h */,
+				A51ABE8F1E0428430029D06E /* JScene.m */,
+				A51ABE911E0428690029D06E /* JTile.h */,
+				A51ABE921E0428690029D06E /* JTile.m */,
+			);
+			name = "Sprite Kit";
+			sourceTree = "<group>";
+		};
+		A51ABE7D1E0424550029D06E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A51ABE421E0423FD0029D06E /* ViewController.h */,
+				A51ABE431E0423FD0029D06E /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A51ABE7E1E04245F0029D06E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A51ABE981E0428FD0029D06E /* JScroView.h */,
+				A51ABE991E0428FD0029D06E /* JScroView.m */,
+				A51ABE9B1E04292C0029D06E /* JOverlay.h */,
+				A51ABE9C1E04292C0029D06E /* JOverlay.m */,
+				A51ABE9E1E0429540029D06E /* JGridView.h */,
+				A51ABE9F1E0429540029D06E /* JGridView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A51ABE7F1E0424690029D06E /* main */ = {
+			isa = PBXGroup;
+			children = (
+				A51ABE3F1E0423FD0029D06E /* AppDelegate.h */,
+				A51ABE401E0423FD0029D06E /* AppDelegate.m */,
+				A51ABE451E0423FD0029D06E /* Main.storyboard */,
+				A51ABE801E0424E10029D06E /* PrefixHeader.pch */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		A51ABE941E04289D0029D06E /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A51ABE951E0428AD0029D06E /* JTheme.h */,
+				A51ABE961E0428AD0029D06E /* JTheme.m */,
+			);
+			name = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +410,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51ABE8A1E0427EA0029D06E /* JCell.m in Sources */,
+				A51ABE871E0427AB0029D06E /* JGameManager.m in Sources */,
 				A51ABE441E0423FD0029D06E /* ViewController.m in Sources */,
+				A51ABE9A1E0428FD0029D06E /* JScroView.m in Sources */,
+				A51ABE931E0428690029D06E /* JTile.m in Sources */,
+				A51ABE901E0428430029D06E /* JScene.m in Sources */,
+				A51ABE831E0426FC0029D06E /* JGlobalState.m in Sources */,
 				A51ABE411E0423FD0029D06E /* AppDelegate.m in Sources */,
 				A51ABE3E1E0423FD0029D06E /* main.m in Sources */,
+				A51ABE9D1E04292C0029D06E /* JOverlay.m in Sources */,
+				A51ABE971E0428AD0029D06E /* JTheme.m in Sources */,
+				A51ABEA01E0429540029D06E /* JGridView.m in Sources */,
+				A51ABE8D1E0428190029D06E /* JGird.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +572,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q27ZRZ24S6;
+				GCC_PREFIX_HEADER = J2048/PrefixHeader.pch;
 				INFOPLIST_FILE = J2048/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = juju.J2048;
@@ -440,6 +585,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q27ZRZ24S6;
+				GCC_PREFIX_HEADER = J2048/PrefixHeader.pch;
 				INFOPLIST_FILE = J2048/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = juju.J2048;
@@ -516,6 +662,7 @@
 				A51ABE681E0423FD0029D06E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A51ABE691E0423FD0029D06E /* Build configuration list for PBXNativeTarget "J2048Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +671,7 @@
 				A51ABE6B1E0423FD0029D06E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A51ABE6C1E0423FD0029D06E /* Build configuration list for PBXNativeTarget "J2048UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +680,7 @@
 				A51ABE6E1E0423FD0029D06E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

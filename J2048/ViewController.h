@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SpriteKit/SpriteKit.h>
 
 @interface ViewController : UIViewController
 
+- (void)updateScore:(NSInteger)score;
+
+- (void)endGame:(BOOL)won;
 
 @end
+
 
